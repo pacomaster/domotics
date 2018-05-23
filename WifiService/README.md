@@ -11,6 +11,9 @@ Step 1. Install Arduino IDE
 Step 2. Install ESP8266 boards
 
   Go to Tools > Boards > Board manager and search "ESP8266"  and install those boards
+  
+  If you cannot find the board follow the instructions in this page:  
+  https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
 
 Step 3. install ESP8266Wifi.h lib and ArduinoJson.hello-world-app-with-node-js-and-express-c1eb7cfa8a30
 
