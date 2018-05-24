@@ -2,14 +2,14 @@
 #include <ArduinoJson.h>
 const char* ssid     = "frankdomain"; 
 const char* password = "codigodavinci";
-const char* host     = "192.168.0.108"; // Your domain  
+const char* host      = "192.168.0.108"; // Your domain  
 String path          = "/client/1/led/1";
 const int pin        = 2;
 void setup() {
     pinMode(pin, OUTPUT);
     pinMode(pin, HIGH);
     Serial.begin(115200);
-  delay(10);
+  delay(5);
   Serial.print("Connecting to ");
   Serial.println(ssid);
   WiFi.begin(ssid, password);
