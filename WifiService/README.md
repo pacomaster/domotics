@@ -37,3 +37,15 @@ Step 5. Load the code to the ESPWifi module
 Step 6. Validate
 
   When the code completes uploading open in tools > Serial Monitor the same port 115200 Baud and check the Hello
+  
+Notes:
+
+  to check pin configuration use this page:
+  https://components101.com/wireless/esp8266-pinout-configuration-features-datasheet
+  
+  When serial programming ESP8266 you need to put GPIO-0 to ground after that to use it standalone you should put it to anything(HIGH)
+  GPIO-0 Ground is to serial programm
+  GPIO-1 TX
+  GPIO-2
+  GPIO-3 RX
+  
