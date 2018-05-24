@@ -60,10 +60,12 @@ String section="header";
       {
         String str = json_parsed["response"]["status"];
         if ( str == "0" )
-        {
+        { 
+          Serial.println("apagando foco: " + pin);
           pinMode(pin, LOW);
         }else
         {
+          Serial.println("Prendiendo foco: " + pin);
           pinMode(pin, HIGH);
         }
         Serial.println(str);
