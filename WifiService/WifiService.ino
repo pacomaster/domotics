@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <ArduinoJson.h>
 const char* ssid     = "frankdomain"; 
-const char* password = "***********";
-const char* host     = "192.168.0.100"; // Your domain  
-String path          = "/";
+const char* password = "codigodavinci";
+const char* host     = "192.168.0.108"; // Your domain  
+String path          = "/client/1/led/1";
 const int pin        = 2;
 void setup() {
     pinMode(pin, OUTPUT);
@@ -58,7 +58,14 @@ String section="header";
       }
       else
       {
-        String str = json_parsed["response"];
+        String str = json_parsed["response"]["status"];
+        if ( str == "0" )
+        {
+          pinMode(pin, LOW);
+        }else
+        {
+          pinMode(pin, HIGH);
+        }
         Serial.println(str);
       }
     }
