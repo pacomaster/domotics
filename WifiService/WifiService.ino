@@ -62,11 +62,11 @@ String section="header";
         if ( str == "0" )
         { 
           Serial.println("apagando foco: " + pin);
-          pinMode(pin, LOW);
+          digitalWrite(pin, LOW);
         }else
         {
           Serial.println("Prendiendo foco: " + pin);
-          pinMode(pin, HIGH);
+          digitalWrite(pin, HIGH);
         }
         Serial.println(str);
       }
