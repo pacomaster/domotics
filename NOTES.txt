@@ -1,0 +1,33 @@
+Presentar idea con arquitecto
+
+1) Realizar demo (Casa con circuito)
+2) Spec de demo
+
+Objetivos
+
+1) Aprender como funciona el internet de las cosas
+2) Que mas se puede agregar al internet de las cosas
+3) Aprender a programar (Lenguaje C,Python,NodeJs y Mobile)
+4) Aprender electronica
+5) Automatizacion inteligente
+6) Comunicarse con servicio y la nube
+7) Aprender Cableado electrico
+8) Buscar que existe en el mercado de IoT y como funcionan
+
+Opcionales
+
+1) Wearables
+
+Prototipo
+
+1) Luces automaticas y programables
+2) Videollamada para timbre de la casa
+3) Climatizacion
+4) Riego
+5) Aplicacion movil
+6) Frecuencias de sonido que ahuyentan insectos
+7) Seguridad de IoT
+
+a) Buscar demos de domotica
+b) Actuador de presion
+c) Caudal
